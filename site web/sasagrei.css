@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+section.top-page {
+    background: url("img/livres.jpg");
+    background-size: cover;
+    height: 110vh;
+    padding: 25px;
+
+}
+
+ body {
+    margin: 0 auto;
+ }
+
+ body.mapassion {
+   background: url("https://st4.depositphotos.com/1484771/37819/i/450/depositphotos_378193086-stock-photo-literature-reading-concept-banner-header.jpg");
+ }
+
+ * { 
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+
+ }
+
+ header.header {
+    display: flex;
+    align-items: center;
+ }
+
+ header.header img {
+    width: 50px;
+ }
+
+ nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+ }
+
+ nav.nav li a{
+    color: rgb(0, 0, 0); 
+    text-decoration: none;
+ }
+
+ .landing-page {
+    padding: 20px 50px;    
+ }
+
+ .gros-titre {
+    color: white;
+    font-size: 150px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 150;  
+ }
+
+ .services {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+ }
+
+ .service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+ }
+
+ .delivery-icon {
+    font-size: 50px;
+ }
+
+ .icone {
+    font-weight: 600;
+    width: 200px;
+    height: 20px;
+    text-align: center;
+    color: black;
+    padding: 8px;
+ }
+
+ .service-item img {
+   width: 50px;
+   height: 50px;
+ }
+
+ .service-item > a:hover {
+   font-style: bold;
+   transition: 0.7s;
+   font-size: 1.4em;
+   text-decoration: underline;
+ }
+
+ .titre {
+   font-size: 50px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: 100;
+   position: relative;
+ }
+
+ .titre::before {
+   content: "";
+   position: absolute;
+   background-color: rgb(238, 222, 132);
+   width: 50px;
+   height: 7px;
+   bottom: 0;
+ }
+
+ .photographie {
+   margin: 40px;
+ }
+
+ .allphotos {
+   min-height: 500px;
+   display: flex;
+   flex-wrap: wrap;
+ }
+
+ .photos {
+   background-position: center;
+   background-size: cover;
+   flex: 1;
+   margin: 2px;
+   min-width: 500px;
+   height: 500px;
+ }
+
+ .photo1 {
+   background-image: url(img/arcenciel.jpg);
+ }
+
+ .photo2 {
+   background-image: url(img/objetshp.jpg);
+ }
+
+ .photo3 {
+   background-image: url(img/blade.jpg);
+ }
+
+ .photo4 {
+   background-image: url(img/bu.jpg);
+ }
+
+ .photo5 {
+   background-image: url(img/chatdodo.jpg);
+ }
+
+ footer {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding:1%;
+}
